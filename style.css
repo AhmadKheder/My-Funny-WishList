@@ -1,0 +1,56 @@
+
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#go{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background-color: #e12e5b;
+    left: 100px;
+}
+tr:first-child {
+    background-color: #e12e5b;
+  }
+
+.removeBtn{
+
+    width: 20px;
+    height: 20px;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #e12e5b;
+}
+header h1{
+    position: absolute;
+   left: 45%; 
+   top:40px;
+}
+
+#myForm{
+    position: absolute;
+    top:250px;
+    left: 100PX;
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+    
+}
+
+#resultTable{
+    position: absolute;
+    top:250px;
+    left: 800px ;
+    width: 700px;
+    /* height: 200px; */
+    background-color: lightgray;
+}
+input{
+    margin-top: 20px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+<header>
+
+    <h1>My WishList </h1>
+</header>
+    <form id="myForm">
+        <label for="title">Wish Title</label>
+        <input type="text" id="title">
+        <br><br>
+        <label for="date">Expected Date</label>
+        <input type="date" id="date">
+
+        <br><br>
+        <input id="go" type="button" onclick="storeToLocalStorage()" value="Submit form">
+
+    </form>
+
+    <table id="resultTable">
+
+        <tr>
+            <th>Wish Title</th>
+            <th> Expected Date</th>
+            <th>Your wish will be comes true after xD</th>
+            <th>Remove</th>
+        </tr>
+
+    </table>
+    <script src="app.js"></script>
+</body>
+
+</html>
